@@ -1,0 +1,16 @@
+# Tokenized datasets - regenerate with tokenize_dataset.ipynb (10 GB+)
+*.bin
+
+# Checkpoints - too large for GitHub (122 MB - 1.4 GB each); host on HF Hub
+*.pth
+model_states*/
+*/model_states*/
+
+# Raw corpora - re-download via load_dataset
+fineweb_data/
+*.parquet
+*.arrow
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
