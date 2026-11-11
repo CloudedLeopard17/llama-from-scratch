@@ -12,6 +12,11 @@ reference implementation before training.
 [huggingface.co/Neeraj17/llama-124m-fineweb](https://huggingface.co/Neeraj17/llama-124m-fineweb)
 — checkpoint, tokenizer and a runnable quickstart.
 
+**RLHF on top of this model:**
+[rlhf-from-scratch](https://github.com/CloudedLeopard17/rlhf-from-scratch)
+— PPO written from scratch (no `trl`), steering this 124M policy's sentiment from 49.5% to
+95.0% positive for 27 nats of KL.
+
 ## The three tiers
 
 | | tier 0 | tier 1 | tier 2 |
